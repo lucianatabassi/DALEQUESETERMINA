@@ -26,8 +26,8 @@ public class CARPINCHO_CONTROLADOR : MonoBehaviour
     {
         if (activo == true)
         {
-            if(Input.GetKey("mouse 0")) //DESCOMENTAR PC
-           // if (Input.GetKey("joystick button 1")) //DESCOMENTAR APK
+            //if(Input.GetKey("mouse 0")) //DESCOMENTAR PC
+           if (Input.GetKey("joystick button 1")) //DESCOMENTAR APK
             {
                 
                 carpincho.transform.SetParent(mano); //que la flor sea hija de la mano

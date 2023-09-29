@@ -159,7 +159,7 @@ public class CARTEL_FINAL : MonoBehaviour
     }
     IEnumerator recorrerIslaLinda()
     {
-        yield return new WaitForSeconds(60f);
+        yield return new WaitForSeconds(20f);
         Invoke("CambiarEscena",2.0f);
     }
     void CambiarEscena()

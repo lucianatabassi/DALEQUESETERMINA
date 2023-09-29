@@ -8732,7 +8732,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468098223}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5042534b5abad0d4babd64936e5feb7b, type: 3}
   m_Name: 
@@ -8778,7 +8778,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468098223}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8a510c1c54096241b57b598bd0976d3, type: 3}
   m_Name: 
@@ -12886,7 +12886,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753255829}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64f37f6e4a4e6045a6d8725be67fa96, type: 3}
   m_Name: 
@@ -16650,7 +16650,7 @@ Transform:
   m_GameObject: {fileID: 976835003}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0152, y: 1.487, z: -0.44}
+  m_LocalPosition: {x: -0.015, y: 1.487, z: -0.155}
   m_LocalScale: {x: 0.0191238, y: -0.62518436, z: -0.06697896}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -22740,7 +22740,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -22755,7 +22755,7 @@ Canvas:
   m_GameObject: {fileID: 1426878248}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 753255847}
   m_PlaneDistance: 100
   m_PixelPerfect: 0

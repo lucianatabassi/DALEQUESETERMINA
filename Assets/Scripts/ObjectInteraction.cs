@@ -24,9 +24,9 @@ public class ObjectInteraction : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) //DESCOMENTAR PARA PC
+        //if (Input.GetMouseButtonDown(0)) //DESCOMENTAR PARA PC
         
-       // if (Input.GetKey("joystick button 1")) //DESCOMENTAR PARA APK
+       if (Input.GetKey("joystick button 1")) //DESCOMENTAR PARA APK
         {
             if (!isCarrying)
             {
