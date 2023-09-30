@@ -25,7 +25,7 @@ public class InteraccionCarpincho : MonoBehaviour
             float distanciaAB = Vector3.Distance(objetoA.transform.position, objetoB.transform.position);
 
             //if (Input.GetKey("mouse 0") && distanciaAB < 5f) // DESCOMENTALO PARA PC Y COMENTALO PARA APK
-            if (Input.GetKey("joystick button 1") && distanciaAB < 5f) //DESCOMENTALO PARA APK
+            if (Input.GetKeyDown("joystick button 1") && distanciaAB < 5f) //DESCOMENTALO PARA APK
             {
                 if (sonidoDestruccionC != null && audioSource != null)
                 {

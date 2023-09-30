@@ -8,7 +8,7 @@ public class SceneManagerCustom : MonoBehaviour
     {
         // Verificar si se presiona la tecla "D"
        //if (Input.GetKeyDown(KeyCode.D)) //DESCOMENTAR PARA PC
-            if (Input.GetKey("joystick button 1")) //DESCOMENTAR PARA APK
+           if (Input.GetKey("joystick button 1")) //DESCOMENTAR PARA APK
         {
             // Cargar la escena deseada
             SceneManager.LoadScene(NombreEscena);

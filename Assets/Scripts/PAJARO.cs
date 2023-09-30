@@ -80,7 +80,7 @@ public class PAJARO : MonoBehaviour
         if (scriptVenda.agarroVenda)
         {
             //if (Input.GetMouseButtonDown(0)) // DESCOMENTAR PARA PC
-           if (Input.GetKey("joystick button 1")) // DESCOMENTAR PARA APK
+           if (Input.GetKeyDown("joystick button 1")) // DESCOMENTAR PARA APK
             {
 
                 Ray ray = miCamara.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
