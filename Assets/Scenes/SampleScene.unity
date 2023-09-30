@@ -8614,7 +8614,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468098223}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5042534b5abad0d4babd64936e5feb7b, type: 3}
   m_Name: 
@@ -8639,7 +8639,7 @@ CharacterController:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Height: 2
   m_Radius: 0.5
@@ -8660,7 +8660,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468098223}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8a510c1c54096241b57b598bd0976d3, type: 3}
   m_Name: 
@@ -12768,7 +12768,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753255829}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64f37f6e4a4e6045a6d8725be67fa96, type: 3}
   m_Name: 
@@ -22513,7 +22513,7 @@ Canvas:
   m_GameObject: {fileID: 1426878248}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 753255847}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -26321,7 +26321,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624682645}
   serializedVersion: 4
-  m_Mass: 50.13
+  m_Mass: 100.7
   m_Drag: 2.53
   m_AngularDrag: 6.04
   m_CenterOfMass: {x: 0, y: 0, z: 0}
